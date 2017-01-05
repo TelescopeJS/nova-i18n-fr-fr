@@ -1,7 +1,7 @@
 Package.describe({
   name: "nova:i18n-fr-fr",
   summary: "Telescope i18n package (fr_FR)",
-  version: "0.26.2-nova",
+  version: "0.27.5-nova",
   git: "https://github.com/TelescopeJS/telescope.git"
 });
 
@@ -10,7 +10,7 @@ Package.onUse(function (api) {
   api.versionsFrom("METEOR@1.0");
   
   api.use([
-    'nova:core@0.26.2-nova'
+    'nova:core@0.27.5-nova'
   ]);
 
   api.use([

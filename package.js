@@ -14,7 +14,7 @@ Package.onUse(function (api) {
   ]);
 
   api.use([
-    'softwarerero:accounts-t9n'
+    'softwarerero:accounts-t9n@1.3.6',
   ], {weak: true});
 
   api.addFiles([
